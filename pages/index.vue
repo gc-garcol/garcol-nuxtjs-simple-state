@@ -19,6 +19,12 @@ import {mapGetters, mapActions, mapState} from "vuex";
 export default {
   components: {Item},
   
+  data() {
+    return {
+      drag: false
+    }
+  },
+  
   computed: {
     name: {
       get() {
@@ -35,6 +41,14 @@ export default {
       set(item) {
         this.setItem(item);
       } 
+    },
+    dragOptions() {
+      return {
+        animation: 200,
+        group: "description",
+        disabled: false,
+        ghostClass: "ghost"
+      };
     }
   },
 
@@ -50,11 +64,11 @@ export default {
 }
 
 .home-container .item:nth-child(2n) {
-  background-color: red;
+  background-color: rgb(151, 84, 84);
 }
 
 .home-container .item:nth-child(2n + 1) {
-  background-color: green;
+  background-color: rgb(96, 138, 96);
 }
 
 </style>

@@ -1,21 +1,6 @@
 # garcol-todo
 
 ![Image](https://img.shields.io/badge/simple-state-brightgreen)
-
-## Build Setup
-
-```bash
-# install dependencies
-$ npm install
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Open Preview (Shift Command V) to open view 
+### Links
+1.  [VueDraggable](https://sortablejs.github.io/Vue.Draggable/#/transition-example-2)
